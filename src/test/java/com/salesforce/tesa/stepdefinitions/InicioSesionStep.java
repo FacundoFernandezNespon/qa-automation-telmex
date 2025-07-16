@@ -1,10 +1,10 @@
 package com.salesforce.tesa.stepdefinitions;
 
 import com.google.inject.Inject;
-import com.salesforce.tesa.tasks.InicioSesionTask;
-import com.salesforce.tesa.utils.Constantes;
-import com.salesforce.tesa.utils.Contexto;
-import com.salesforce.tesa.utils.TipoUser;
+import com.salesforce.telmex.tasks.InicioSesionTask;
+import com.salesforce.telmex.utils.Constantes;
+import com.salesforce.telmex.utils.Contexto;
+import com.salesforce.telmex.utils.TipoUser;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
@@ -12,7 +12,7 @@ import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.ensure.Ensure;
 
-import static com.salesforce.tesa.userinterfaces.crm.ElementosComunesPage.BARRA_CERRAR_SESION;
+import static com.salesforce.telmex.userinterfaces.crm.ElementosComunesPage.BARRA_CERRAR_SESION;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class InicioSesionStep {

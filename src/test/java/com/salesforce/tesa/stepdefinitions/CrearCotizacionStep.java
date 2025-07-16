@@ -1,16 +1,15 @@
 package com.salesforce.tesa.stepdefinitions;
 
 import com.google.inject.Inject;
-import com.salesforce.tesa.models.Producto;
-import com.salesforce.tesa.models.SubProducto;
-import com.salesforce.tesa.tasks.CrearCotizacionTask;
-import com.salesforce.tesa.tasks.SeleccionarOportunidadTask;
-import com.salesforce.tesa.tasks.SeleccionarCuentaTask;
-import com.salesforce.tesa.tasks.VerificarPreciosTask;
-import com.salesforce.tesa.utils.Contexto;
-import com.salesforce.tesa.utils.JsonDataReader;
-import com.salesforce.tesa.utils.NivelPartner;
-import com.salesforce.tesa.utils.ProductoEnum;
+import com.salesforce.telmex.models.SubProducto;
+import com.salesforce.telmex.tasks.CrearCotizacionTask;
+import com.salesforce.telmex.tasks.SeleccionarOportunidadTask;
+import com.salesforce.telmex.tasks.SeleccionarCuentaTask;
+import com.salesforce.telmex.tasks.VerificarPreciosTask;
+import com.salesforce.telmex.utils.Contexto;
+import com.salesforce.telmex.utils.JsonDataReader;
+import com.salesforce.telmex.utils.NivelPartner;
+import com.salesforce.telmex.utils.ProductoEnum;
 import io.cucumber.java.es.*;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.ensure.Ensure;
@@ -18,8 +17,8 @@ import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import java.time.Duration;
 
-import static com.salesforce.tesa.userinterfaces.comunidad.CotizacionPage.BTN_DESCARGAR_PDF;
-import static com.salesforce.tesa.userinterfaces.comunidad.CotizacionPage.FILE_PDF;
+import static com.salesforce.telmex.userinterfaces.comunidad.CotizacionPage.BTN_DESCARGAR_PDF;
+import static com.salesforce.telmex.userinterfaces.comunidad.CotizacionPage.FILE_PDF;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class CrearCotizacionStep {

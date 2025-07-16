@@ -1,6 +1,6 @@
 package com.salesforce.tesa.hooks;
 
-import com.salesforce.tesa.utils.Contexto;
+import com.salesforce.telmex.utils.Contexto;
 import io.cucumber.java.Before;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
