@@ -1,0 +1,58 @@
+[
+  {
+    "productos": [
+      {
+        "nombre": "Monitoreo Infinitum",
+        "subproductos": [
+          {
+            "nombre": "Monitoreo y gestión Infinitum",
+            "precio_platino": "144.08",
+            "precio_oro": "162.72",
+            "precio_plata": "181.36"
+          }
+        ]
+      },
+      {
+        "nombre": "Respaldo de Información",
+        "subproductos": [
+          {
+            "nombre": "Profesional (Respaldo de 15 GB)",
+            "precio_platino": "35.61",
+            "precio_oro": "40.70",
+            "precio_plata": "45.78"
+          },
+          {
+            "nombre": "Avanzado (Respaldo de 75 GB)",
+            "precio_platino": "162.33",
+            "precio_oro": "185.52",
+            "precio_plata": "208.71"
+          },
+          {
+            "nombre": "Plus (Respaldo de 150 GB)",
+            "precio_platino": "301.13",
+            "precio_oro": "344.14",
+            "precio_plata": "387.16"
+          },
+          {
+            "nombre": "Premium (Respaldo de 375 GB)",
+            "precio_platino": "735.61",
+            "precio_oro": "840.70",
+            "precio_plata": "945.78"
+          },
+          {
+            "nombre": "Empresarial (Respaldo de 750 GB)",
+            "precio_platino": "1,709.99",
+            "precio_oro": "1,835.11",
+            "precio_plata": "1,960.23"
+          },
+          {
+            "nombre": "Corporativo (Respaldo de 1500 GB)",
+            "precio_platino": "3,378.26",
+            "precio_oro": "3,625.45",
+            "precio_plata": "3,872.64"
+          }
+        ]
+      }
+    ]
+  }
+]

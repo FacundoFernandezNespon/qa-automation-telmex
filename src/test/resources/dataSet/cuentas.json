@@ -1,0 +1,21 @@
+[
+  {
+    "cuentas": [
+      {
+        "nombre": "Maquilas del Norte S.A. de C.V.",
+        "nivel": "Platino",
+        "contacto": "Diego Alejandro Hernandez Lopez"
+      },
+      {
+        "nombre": "AgroCentro del Bajo S.A. deC.V.",
+        "nivel": "Plata",
+        "contacto": "Fernando Andres Castillo Jimenez"
+      },
+      {
+        "nombre": "MetroTech Solutions S.A. de C.V.",
+        "nivel": "Oro",
+        "contacto": "Sofia Isabel Garcia Mendoza"
+      }
+    ]
+  }
+]

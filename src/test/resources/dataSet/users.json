@@ -1,0 +1,16 @@
+[
+  {
+    "users": [
+      {
+        "username": "pam_total@telmexb2b.com.demo001",
+        "password": "Dummy2025",
+        "rol": "PAM"
+      },
+      {
+        "username": "emp_sur@dummy.demo001",
+        "password": "dummy4test",
+        "rol": "Partner"
+      }
+    ]
+  }
+]
